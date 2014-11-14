@@ -1,3 +1,10 @@
+// SDA - 10
+// SCK - 13
+// MOSI - 11
+// MISO - 12
+// RST - 5
+
+
 #include <SPI.h>
 #include <MFRC522.h>
 
@@ -15,7 +22,7 @@ MFRC522 mfrc522 ( SS_PIN, RST_PIN );
 
 void setup () {
   pinMode ( LED_PIN, OUTPUT );
-  digitalWrite ( LED_PIN, LOW );
+  digitalWrite ( LED_PIN, HIGH );
   Serial.begin ( 9600 );
   SPI.begin();
   mfrc522.PCD_Init();
@@ -32,7 +39,6 @@ void loop () {
   
   if ( need_compare ) {
     for ( byte i = 0; i < mfrc522.uid.size; i++ ) {
-      //Serial.print ( mfrc522.uid.uidByte[i], HEX );
       if ( mfrc522.uid.uidByte[i] != exit_uid[i] ) {
         is_coincided = false;
       }
@@ -43,8 +49,8 @@ void loop () {
   }
   
   if ( is_coincided ) {
-    digitalWrite ( LED_PIN, HIGH );
-    delay ( 3000 );
     digitalWrite ( LED_PIN, LOW );
+    delay ( 5000 );
+    digitalWrite ( LED_PIN, HIGH );
   }
 }
