@@ -1,0 +1,48 @@
+﻿Кино - Группа Крови
+res\midi\1_1.mid
+50
+Би-2 - Полковник
+res\midi\1_2.mid
+50
+Ирина Алегрова - Угнала
+res\midi\1_3.mid
+50
+Ария - Беспечный Ангел
+res\midi\1_4.mid
+50
+PSY - Gangnam Style
+res\midi\2_1.mid
+50
+Boney-M - Daddy Cool
+res\midi\2_2.mid
+50
+Haddaway - What Is Love
+res\midi\2_3.mid
+50
+Lady Gaga - Pokerface
+res\midi\2_4.mid
+50
+БУ-РА-ТИ-НО
+res\midi\3_1.mid
+50
+Имперский марш
+res\midi\3_2.mid
+50
+Охотники за привидениями
+res\midi\3_3.mid
+50
+Алладин
+res\midi\3_4.mid
+50
+Mario Brs
+res\midi\4_1.mid
+50
+Тетрис
+res\midi\4_2.mid
+50
+Duke Nukem
+res\midi\4_3.mid
+50
+Mortal Kombat
+res\midi\4_4.mid
+50

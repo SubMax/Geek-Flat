@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FloppPelsh2.jnlp">
+  <information>
+    <title>FloppPelsh2</title>
+    <vendor>touch_p</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="../SerialDrivers/rxtx-2.1-7-bins-r2/Windows/ch-rxtx-2.2-20081207-win-x64;${env_var:PATH}" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FloppPelsh2.jar" size="20747" download="eager" />
+    <jar href="lib/RXTXcomm.jar" size="59464" download="eager" />
+    <jar href="lib/controlsfx-8.20.8.jar" size="957666" download="eager" />
+    <jar href="lib/jxinput.jar" size="73232" download="eager" />
+    <jar href="lib/themidibus.jar" size="10034" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FloppPelsh2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="flopppelsh2.FloppPelsh2"  name="FloppPelsh2" />
+  <update check="always"/>
+</jnlp>
